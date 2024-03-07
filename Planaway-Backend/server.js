@@ -23,7 +23,7 @@ const app = express();
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
-app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors({ origin: 'https://pa-frontend.onrender.com' }));
 app.listen(3001, () => console.log('Server running on port 3001'));
 
 /*****  Middlewares  *****/
